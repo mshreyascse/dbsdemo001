@@ -21,4 +21,3 @@ $items[$i] = $personRecord;
 header('content-Type: application/json');
 $jsonoutput = json_encode($items);
 echo $jsonOutput;
-?>
